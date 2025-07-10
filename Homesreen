@@ -1,0 +1,8 @@
+/perfect-drive-app
+|-- /screens
+|   |-- HomeScreen.js
+|   |-- ScanScreen.js
+|   |-- VerificationScreen.js
+|   |-- ResultsScreen.js
+|-- App.js
+|-- package.json
