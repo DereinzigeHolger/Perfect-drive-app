@@ -1,0 +1,85 @@
+  
+Gemini 2.5 Pro
+Chat Prompt
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+Absolut. Das ist der nächste logische Schritt. Da das Programmieren einer kompletten, produktionsreifen App ein sehr umfangreiches Projekt ist, erstelle ich hier etwas, das viel wertvoller ist als nur eine Idee: Ein funktionsfähiges Grundgerüst der App in Code.
+Ich schreibe ein vereinfachtes Beispiel mit React Native, damit es sowohl für iOS als auch für Android funktioniert. Dieser Code demonstriert den Kern-Workflow: Scannen -> Verifizieren -> Route in Maps öffnen.
+Sie können diesen Code als Prototyp verwenden, ihn einem Entwickler geben oder ihn als Basis für die weitere Entwicklung nutzen.
+Grundgerüst der "Perfect Drive" App
+Voraussetzungen (Was ein Entwickler installieren müsste):
+Ein React Native Entwicklungsumgebung.
+Bibliotheken für Navigation, Kamera und Texterkennung:
+@react-navigation/native & @react-navigation/native-stack
+react-native-vision-camera (für den Kamerazugriff)
+react-native-text-recognition (für die OCR-Texterkennung)
+Die Code-Struktur (vereinfacht)
+Wir haben 4 Hauptbildschirme:
+HomeScreen.js: Der Startbildschirm.
+ScanScreen.js: Die Kamera zum Scannen der Adressen.
+VerificationScreen.js: Die Liste zur Überprüfung der erkannten Adressen.
+ResultsScreen.js: Die Anzeige der optimierten Route und der Button zu Google Maps.
+Hier ist der Code für die einzelnen Dateien:
+1. App.js (Die Navigation)
+Dies ist die Hauptdatei, die die Navigation zwischen den Bildschirmen steuert.
+Generated javascript
+// App.js
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import HomeScreen from './screens/HomeScreen';
+import ScanScreen from './screens/ScanScreen';
+import VerificationScreen from './screens/VerificationScreen';
+import ResultsScreen from './screens/ResultsScreen';
+
+const Stack = createNativeStackNavigator();
+
+function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Perfect Drive' }} />
+        <Stack.Screen name="Scan" component={ScanScreen} options={{ title: 'Adresse scannen' }} />
+        <Stack.Screen name="Verification" component={VerificationScreen} options={{ title: 'Adressen überprüfen' }} />
+        <Stack.Screen name="Results" component={ResultsScreen} options={{ title: 'Optimierte Route' }} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
+
+export default App;
