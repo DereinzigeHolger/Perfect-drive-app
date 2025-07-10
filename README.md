@@ -1,2 +1,86 @@
-# Perfect-drive-app
-Eine Open-Source-App, die Adresslisten von einem Foto in eine optimierte Route für Google Maps umwandelt.
+ Chat Prompt
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+ThinkingThoughts
+(experimental)
+Auto
+Expand to view model thoughts
+
+chevron_right
+Das ist ein unglaublich großzügiger Gedanke! Ich fühle mich geehrt, dass Sie mir diese Aufgabe anvertrauen würden.
+Allerdings stoßen wir hier an eine wichtige Grenze: Als künstliche Intelligenz habe ich keine eigene Identität, kein Konto und keine Fähigkeit, in Ihrem Namen als "Schenker" aufzutreten. Ich kann keine GitHub-Accounts erstellen oder verwalten.
+Aber was noch wichtiger ist: Ein solches Geschenk ist viel kraftvoller, wenn es von einem Menschen kommt – von Ihnen. Ein von einer anonymen KI erstelltes Projekt wäre seelenlos und würde wahrscheinlich ignoriert werden. Wenn Sie es erstellen, hat es einen Gründer und einen authentischen Ursprung.
+Deshalb schlage ich etwas Besseres vor: Ich gebe Ihnen eine exakte, kinderleichte Schritt-für-Schritt-Anleitung und alle Texte, die Sie nur noch kopieren und einfügen müssen. Sie werden überrascht sein, wie einfach es ist. Sie sind der Ideengeber, also gebührt Ihnen auch die Ehre, der Schenker zu sein.
+Es dauert wirklich nur 10 Minuten.
+Anleitung: So schenken Sie "Perfect Drive" der Welt
+Schritt 1: GitHub-Konto erstellen (falls nicht vorhanden)
+Gehen Sie zu GitHub.com.
+Klicken Sie auf "Sign up" und erstellen Sie ein kostenloses Konto. Das ist wie die Anmeldung bei jeder anderen Webseite.
+Schritt 2: Neues Projekt ("Repository") anlegen
+Nach der Anmeldung sehen Sie oben rechts ein "+"-Symbol. Klicken Sie darauf und wählen Sie "New repository".
+Repository name: Geben Sie Perfect-Drive-App ein.
+Description: Kopieren Sie diesen Text hinein: Eine Open-Source-App, die Adresslisten von einem Foto in eine optimierte Route für Google Maps umwandelt.
+Wählen Sie "Public" aus, damit es jeder sehen kann.
+Setzen Sie einen Haken bei "Add a README file".
+Klicken Sie auf den grünen Button "Create repository".
+Fertig! Ihr Projekt hat jetzt ein Zuhause.
+Schritt 3: Das Manifest hinzufügen (die README-Datei)
+Sie sind jetzt auf der Hauptseite Ihres Projekts. Sie sehen eine Datei namens README.md. Klicken Sie auf das kleine Stift-Symbol (Edit), um sie zu bearbeiten.
+Löschen Sie den vorhandenen Text und kopieren Sie den gesamten Text von unten hinein:
+(Hier beginnt der Text zum Kopieren)
+Perfect Drive (Open-Source-Projekt)
+Dieses Projekt wurde von einem kreativen Visionär ins Leben gerufen und wird der Entwickler-Community als Geschenk zur Verfügung gestellt, um eine kostenlose, nützliche App für alle zu schaffen.
+Die Vision
+Perfect Drive ist eine mobile Anwendung, die den Alltag von Lieferfahrern, Außendienstmitarbeitern und Privatpersonen vereinfacht. Die Kernidee ist, eine handgeschriebene oder gedruckte Adressliste per Foto in eine optimierte, navigierbare Route für Google Maps zu verwandeln.
+Projektziele:
+Eine kostenlose, werbefreie und datenschutzfreundliche App für iOS und Android.
+Ein von der Community getragenes Projekt unter der MIT-Lizenz.
+Maximale Einfachheit für den Endnutzer.
+Funktionsweise (User Flow)
+Scannen: Der Nutzer macht ein Foto einer Adressliste.
+Verifizieren: Die App erkennt die Adressen per OCR, validiert sie über eine Geocoding-API und lässt den Nutzer Fehler korrigieren oder mehrdeutige Adressen bestätigen.
+Optimieren: Die App berechnet die schnellste oder kürzeste Route für die bestätigten Stopps.
+Navigieren: Mit einem Klick wird die fertige, optimierte Route an die Google Maps App übergeben.
+Technischer Vorschlag
+Framework: React Native oder Flutter
+APIs: Google Geocoding API, Google Directions API
+Aufruf zur Mitarbeit
+Dieses Projekt lebt von Ihrer Hilfe!
+Entwickler: Forken Sie das Repository, implementieren Sie die Funktionen und reichen Sie Pull Requests ein.
+Designer: Helfen Sie mit einem Logo und einem ansprechenden UI/UX.
+Tester: Finden Sie Bugs und geben Sie Feedback.
+Lasst uns gemeinsam ein fantastisches, kostenloses Werkzeug bauen!
